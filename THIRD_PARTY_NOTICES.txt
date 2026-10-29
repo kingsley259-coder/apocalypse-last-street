@@ -1,0 +1,39 @@
+HOLLOW HARVEST — THIRD-PARTY ASSETS
+
+Modular Low Poly City — mlkjaffer
+https://sketchfab.com/3d-models/modular-low-poly-city-25aa718e35ce4953bb7cc76a5ab95430
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/
+Modified: rotated and aligned, repeated as three city sections, geometry combined by material, road material replaced, collisions and navigation added.
+
+AK-47 — YieldingMist206
+https://sketchfab.com/3d-models/ak-47-8c1f16b1246a4d86bf4079e374991711
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/
+Modified: materials converted to Unity URP, scaled and attached to animated character, muzzle point and feedback added. Used as a game asset, not as generative AI training data.
+
+Adobe Mixamo — SWAT, Copzombie L Actisdato, Zombiegirl W Kurniawan
+Basic Shooter Pack and Scary Zombie Pack
+https://www.mixamo.com/
+https://helpx.adobe.com/creative-cloud/faq/mixamo-faq.html
+Downloaded through the user's signed-in Mixamo account. Characters and animations used within this game under Mixamo terms. Do not redistribute the raw character/animation files as a standalone asset library.
+Modified: Unity humanoid imports, root motion disabled for scripted movement, animation controllers and URP materials added.
+
+Poly Haven — Asphalt 02 (Rob Tuytel), Kiara 1 Dawn (Greg Zaal)
+https://polyhaven.com/a/asphalt_02
+https://polyhaven.com/a/kiara_1_dawn
+CC0: https://polyhaven.com/license
+Asphalt diffuse and normal map used for roads. HDRI used for dawn sky and lighting.
+
+All external assets listed above were downloaded free. No purchases or paid subscriptions were made for this upgrade.
+
+Original procedural music and sound effects (NightRun, Collapse, Rolling, Warning, Impact, Footstep): authored for this Unity game project.
+
+Monster Low Poly - Khornes, Unity Asset Store product 280220, Standard Unity Asset Store EULA. User imported asset; humanoid mapping and URP materials adapted for the axe pursuer.
+Cinematic Explosions FREE - Mirza Beig, Unity Asset Store product 257086, Standard Unity Asset Store EULA. Used as a scaled small missile explosion; gameplay prefab omits camera-shake scripts. https://assetstore.unity.com/packages/vfx/particles/fire-explosions/cinematic-explosions-free-257086
+Health, laser and airstrike pickup models, laser carbine, axe, ground indicators and checkpoint gate: authored for this project. Additional original sounds: MissileImpact, MissileWhoosh, Pickup, Laser, MonsterRoar, AxeHit.
+
+Lost in a Bad Place (horror ambience loop) — congusbongus, CC0. https://opengameart.org/content/lost-in-a-bad-place-horror-ambience-loop
+Bebas Neue and Rajdhani fonts — Google Fonts, SIL Open Font License. License copies in Assets/Art/Fonts.
+Apocalypse menu artwork — original AI-generated artwork for this project, no downloaded third-party image.
+Jump sound — original synthesized effect for this project.

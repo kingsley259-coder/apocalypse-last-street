@@ -1,0 +1,46 @@
+APOCALYPSE: LAST STREET
+
+Open this project with Unity 6000.0.56f1. Open Assets/Scenes/HalloweenCity.unity and press Play.
+Choose Play Game, then Easy, Medium or Hard. Main Menu contains Stats, Controls, How to Play, Settings and Credits.
+
+Default controls
+W/A/S/D: move on the street. Left Shift: sprint. Space: jump.
+Left mouse: walk and shoot (sprinting is disabled while shooting).
+Q: switch rifle / laser when laser ammunition is available.
+F: aim a saved airstrike. Left click: confirm. Right click: cancel.
+Escape or Pause: pause / resume. Controls supports saved keyboard rebinding.
+During the final fight, aim at the boss with the mouse. The camera keeps a fixed street-facing angle.
+
+Campaign
+Cross checkpoint 1 at z=175, checkpoint 2 at z=353 and checkpoint 3 at z=480.
+Crossing saves the next level, position, health, points, laser cells and airstrikes without teleporting the player.
+Death -> Continue checkpoint reloads that saved checkpoint. New game starts a new campaign.
+After level three, the Boss Monster fights alone: no zombie spawning, rolling pumpkins or hostile missiles.
+The boss has a world-space health bar above its head. The player health and points are at the top of the HUD.
+Victory follows the boss defeat. Maximum stored airstrikes: three. Laser pickup: 40 cells, capacity 160.
+Green heals 35 health. Cyan grants laser cells. Purple grants an airstrike.
+Male kills: 10 points. Female kills: 25 points. Checkpoints: 250 / 500 / 750. Boss: 2000.
+
+Hazards and difficulty
+Red circles brighten for three seconds before a missile descends. Hostile blast contact is lethal.
+Orange street lines mark a giant rolling pumpkin's crossing. Pumpkin contact is lethal.
+Move away from these ground warnings. The slower Boss Monster pursues from behind during the street levels.
+Easy reduces population, speed and health. Medium is the previous baseline. Hard adds pressure with capped speeds.
+Males are more frequent and slower/weaker than females. Zombie spawn positions are randomized ahead of the player.
+Street bounds prevent leaving the route. In the final battle, the arena spans z=460..532.
+
+Audio and presentation
+Pause -> Settings changes game master/music/effects volume and reduced muzzle flashes.
+Soundtrack: Lost in a Bad Place by congusbongus (CC0).
+Fonts: Bebas Neue / Rajdhani (SIL OFL). Credits and license files are included under Assets.
+Menu art is original generated artwork. See Assets/StreamingAssets/ThirdPartyNotices.txt.
+
+Project organization
+All active C# files are in Assets/Scripts, separated by Player, Combat, Enemies, Game, Animation, Camera, Effects and Editor.
+Assembly-CSharp.csproj and kingsley_jermain_project1.sln are regenerated for Visual Studio.
+No paid assets were purchased. Removed content is recoverable outside this project under the Codex task's outputs/RemovedProjectContent-20261026.
+Keep Assets, Packages, ProjectSettings and UserSettings. Library is Unity's generated cache.
+
+Verification
+See ApocalypseReleaseReport.txt and ApocalypseAssetAudit.txt for the latest actual results.
+Editor test/setup utilities only run when their explicit marker files are created; they are excluded from player builds.
